@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f6f7;
+  text-align: center;
+  margin: 30px;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+table {
+  margin: auto;
+  border-collapse: collapse;
+  width: 70%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+th, td {
+  border: 1px solid #999;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #d9e1f2;
+  color: #000;
+}
+
+.begin {
+  background-color: #fff9c4; /* light yellow */
+}
+
+.end {
+  background-color: #d1c4e9; /* light purple */
+}
+
+tbody tr:hover {
+  background-color: #e0f7fa;
+  cursor: pointer;
+}
